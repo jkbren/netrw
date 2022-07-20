@@ -11,7 +11,6 @@ class RobustRewirer(BaseRewirer):
     """
     Increases network robustness by building triangles around high degree nodes following algorithm described in:
     Louzada, V. H. P., Daolio, F., Herrmann, H. J., & Tomassini, M. (2013). Smart rewiring for network robustness. Journal of Complex Networks, 1(2), 150–159. https://doi.org/10.1093/comnet/cnt010
-
     * full_rewire rewires the graph N times
     """
 
